@@ -4,7 +4,7 @@
 
 ```bash
 cd code
-conda create --name foo python=3.9.10
+conda create --name foo python=3.8.10
 pip install -r requirements.txt
 python main.py
 ```
