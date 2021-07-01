@@ -52,10 +52,27 @@
 \maketitle
 
 \section{队伍得分与排名}
-\dots
+队伍名称为Chauncey10，共1171支队伍参加，排名为277.
+截图如下：
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{rank.png}
+      \caption{排名}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{total.png}
+      \caption{队伍总数}
+  \end{subfigure}
+  \caption{Private Leaderboard}
+  \label{demo}
+\end{figure}
 
 \section{建模思路与方法}
-使用Amazon开发出的\href{https://auto.gluon.ai/stable/index.html}{Autogluon}完成此次的实验，这是一个自动调参、挑选模型的AutoML包，完成本次竞赛全部代码量仅11行，下面进行详细说明：
+使用Amazon开发出的\href{https://auto.gluon.ai/stable/index.html}{Autogluon}完成此次的实验，这是一个自动调参、挑选模型的AutoML包，完成本次竞赛全部代码量仅11行. 项目地址位于\href{https://github.com/lcxrocks/Kaggele_2021_Jun}{这里}下面进行详细说明：
 \subsection{模型训练}
 以下部分可以让Autogluon进行自主训练
 \begin{lstlisting}
